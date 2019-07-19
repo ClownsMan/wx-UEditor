@@ -1,0 +1,13 @@
+.container {
+
+}
+
+.container button {
+  border: none;
+  background: rgba(0, 0, 0,0.7);
+  color: #fff;
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-bottom: 10rpx;
+}

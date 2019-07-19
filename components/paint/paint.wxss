@@ -1,0 +1,61 @@
+.paint-container {
+  width: 100%;
+  height: 70vh;
+}
+
+.paint-container image {
+  width: 100%;
+  height: 100%;
+}
+
+.operation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 10rpx;
+}
+.operation .item {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.operation .item image{
+  width: 50rpx;
+  height: 50rpx;
+  display: block;
+  margin: 0 auto;
+}
+
+.operation .item .title{
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.colorBox {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+}
+
+.colorBox .color-Item{
+  flex: 1;
+  height: 100%;
+}
+.colorBox .color-Item:nth-child(1){
+  background: red;
+}
+
+.colorBox .color-Item:nth-child(2){
+  background: black;
+}
+
+.colorBox .color-Item:nth-child(3){
+  background: green;
+}
+
+.colorBox .color-Item:nth-child(4){
+  background: gold;
+}

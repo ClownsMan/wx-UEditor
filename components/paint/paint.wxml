@@ -1,0 +1,16 @@
+<view>
+  <view class="paint-container">
+    <image src='/images/bg.jpg'></image>
+  </view>
+  <view class='operation'>
+    <block wx:for="{{navList}}" :key="id">
+      <view class='item' bindtap='{{item.tap}}'>
+        <image src='{{item.img}}'></image>
+        <view class='title'>{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+  <view class='colorBox' wx:if="{{isColor}}">
+    <view class='color-Item' data-color="{{item.name}}" wx:for="{{colorList}}" :key="*this"></view>
+  </view>
+</view>

@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap='gotoPaint'>绘画</button>
+  <button>编辑器</button>
+</view>
