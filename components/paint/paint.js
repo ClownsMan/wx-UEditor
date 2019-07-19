@@ -29,23 +29,9 @@ Component({
       },
       {
         id: 3,
-        name: '调色板',
+        name: '上传',
         img: '/images/icon/color.png',
         tap: '_color'
-      }
-    ],
-    colorList: [
-      {
-        name: 'red'
-      },
-      {
-        name: 'black'
-      },
-      {
-        name: 'green'
-      },
-      {
-        name: 'gold'
       }
     ],
     isColor: false, // 是否展示调色板
@@ -69,9 +55,7 @@ Component({
       console.log(33333)
     },
     _color() {
-      this.setData({
-        isColor: !this.data.isColor
-      })
+      console.log(44444)
     }
   },
 

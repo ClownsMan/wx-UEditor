@@ -10,7 +10,18 @@
       </view>
     </block>
   </view>
-  <view class='colorBox' wx:if="{{isColor}}">
-    <view class='color-Item' data-color="{{item.name}}" wx:for="{{colorList}}" :key="*this"></view>
+  <view class='styleBox'>
+    <view class='item'>
+      <text>字体大小: </text>
+      <input type='number'></input>
+    </view>
+    <view class='item'>
+      <text>颜色: </text>
+      <input type='text'></input>
+    </view>
+    <view class='item'>
+      <text>粗细: </text>
+      <input type='text'></input>
+    </view>
   </view>
 </view>

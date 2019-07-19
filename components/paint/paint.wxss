@@ -44,18 +44,29 @@
   flex: 1;
   height: 100%;
 }
-.colorBox .color-Item:nth-child(1){
-  background: red;
+
+/* 样式模块样式开始 */
+.styleBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6%;
+  box-sizing: border-box;
 }
 
-.colorBox .color-Item:nth-child(2){
-  background: black;
+.styleBox .item {
+  
+  width:42%;
+  height: 50rpx;
+  display: flex;
 }
 
-.colorBox .color-Item:nth-child(3){
-  background: green;
+.styleBox .item text{
+  flex: 5;
+  text-align: right;
 }
 
-.colorBox .color-Item:nth-child(4){
-  background: gold;
+.styleBox .item input{
+  flex: 7;
+  border: 2rpx solid #eee;
 }
